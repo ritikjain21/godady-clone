@@ -1,0 +1,307 @@
+
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+    .log{
+        margin-top: 1%;
+    }
+    .domain,
+    .web,
+    .wrd,
+    .host,
+    .mor {
+        margin-left: -3%;
+        margin-right: -1%;
+        margin-top: 1%;
+        color: rgb(92, 84, 84);
+    }
+
+    .domain:hover,
+    .web:hover,
+    .wrd:hover,
+    .host:hover,
+    .mor:hover {
+        cursor: pointer;
+        color: black;
+    }
+
+    .con,
+    .blog,
+    .hel,
+    .sin {
+        margin-left: -2%;
+        margin-right: -2%;
+        margin-top: 0.5%;
+        margin-top: 1.5%;
+        cursor: pointer;
+    }
+    .icon {
+        margin-top: 2.7%;
+        margin-right: 2.2%;
+        cursor: pointer;
+    }
+    .search-box {
+        position: absolute;
+        top: 21%;
+        left: 23%;
+        transform: translate(-50%, -50%);
+        height: 50px;
+        border-radius: 0px;
+        padding: 10px;
+    }
+
+    .search {
+        border: none;
+        background-color: none;
+        outline: none;
+        float: left;
+        color: black;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 400px;
+        height: 50px;
+        padding-left: 3%;
+    }
+    .btn {
+    float: right;
+    width: 80px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-left:17px;
+    margin-top: -10.4%;
+    color: blanchedalmond;
+
+    }
+    .btn:hover {
+     background-color: rgba(44, 39, 39, 0.911);
+    }
+    .fff {
+        margin-left:-5% ;
+    }
+    
+
+    .middle {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    .mid1 {
+        margin-left: 7%;
+        margin-top: 9%;
+    }
+
+    .mid-para1 {
+        margin-left: -5%;
+        font-size: 20px;
+    }
+    .mid_btn1 , .mid_btn2 {
+        padding: 6%;
+        background-color:black;
+        color:white;
+    }
+    .mid_btn1:hover , .mid_btn2:hover{
+        cursor: pointer;
+    }
+    .mid3 {
+        margin-right: 5%;
+        margin-top: 5%;     
+    }
+
+    .mid-para3 {
+        margin-right: -5%;
+        font-size: 20px;
+    }
+
+    .main {
+        background: #c9c9c9;
+    }
+
+    .table,
+    tr,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    tr,
+    td {
+        padding: 3.3%;
+        width: 2.5%;
+        height: 4%;
+    }
+
+    div.help {
+        background-color: rgb(0, 238, 255);
+        padding: 2%;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .prof:hover,
+    .onl:hover,
+    .god:hover,
+    .sale:hover,
+    .mang:hover,
+    .sale:hover,
+    .ssl:hover,
+    .wema:hover,
+    .vps:hover,
+    .dedi:hover {
+        background-color:black;
+        color: blanchedalmond;
+    }
+
+    .lower {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        width: 70%;
+        height: 0%;
+    }
+
+    .lower-one {
+        font-size: 25px;
+    }
+    .search-box2 {
+
+    }
+    .search2 {
+        border: none;
+        background-color: none;
+        outline: none;
+        float: left;
+        color:black;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 340px;
+        height: 18px;
+        padding: 3%;
+    }
+
+    .btn21{
+        padding: 1.2%;
+        width: 90px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        border: none;
+        position: absolute;
+    }
+    .btn21:hover + span{
+        position: absolute;
+        display: block;
+        background-color: red;
+        margin-left: 27.4%;
+        height:35px ;
+        width: 6.7%;
+        text-align: center;
+        padding-top: 1%;
+        
+        
+    
+        
+    }
+    .lower-two {
+        font-size: 25px;
+    }
+    .lower-two:hover {
+        cursor: pointer;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 3%;
+        margin-left: 2.8%;
+        font-size: .80rem;
+    }
+    .a1:hover, .a2:hover, .a3:hover, .a4:hover,.a5:hover,
+    .a6:hover, .a7:hover,.a8:hover, .a9:hover, .a10:hover, 
+    .a11:hover, .a12:hover, .a13:hover, .a14:hover, 
+    .r1:hover, .r2:hover, .r3:hover, .r4:hover, .r5:hover,
+    .r6:hover, .r7:hover, .r8:hover, .r9:hover, .r10:hover,
+    .r11:hover, .r12:hover, .r13:hover, .r14:hover,
+    .s1:hover, .s2:hover, .s3:hover, .s4:hover, .s5:hover, 
+    .s6:hover, .s7:hover,
+    .los1:hover, .los2:hover, .los3:hover, .los4:hover, 
+    .facebook:hover, .insta:hover, .youtube:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    } 
+    .country-main {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3%;
+        margin-right: 2.8%;
+
+    }
+
+    .country-1 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .india{
+        position:absolute;
+        margin-left: 16%;
+        font-size: 17x;
+        cursor: pointer;
+    }
+    .inr{
+        position:absolute;
+        margin-left: 27%;
+        cursor: pointer;
+    }
+
+    .country-2 {
+        display: flex;
+        justify-content: space-between;
+        font-size: 200%;
+        width: 10%;
+    }
+
+    .last-one {
+        display: flex;
+        justify-content: space-between;
+        font-size: .8rem;
+        margin-left: 2.4%;
+        margin-right: 2.4%;
+    }
+
+    .last-one-first {
+        font-size:13px;
+    }
+
+    .last-one-second {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+    body {
+        font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    }
+
